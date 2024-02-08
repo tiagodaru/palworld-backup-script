@@ -29,3 +29,15 @@ Para definir a politica como irestrita e conseguir executar o script entre com o
 ```
 Set-ExecutionPolicy UnRestricted
 ```
+
+Agora para executar o script acesse a pasta onde está o script e de dentro dela digite o comando de execução do PowerShell
+```
+.\script-backup-palworld-saved.ps1
+```
+If you want to automate Backup, you can check out this step-by-step guide
+Caso queira automatizar o Backup pode conferir este passo a passo
+[How to Create a PowerShell Scheduled Task](https://lazyadmin.nl/powershell/how-to-create-a-powershell-scheduled-task/).
+
+In my case I set the backup to run every hour so if I have a problem I can get the folder before the problem and I don't lose so many hours of gameplay
+No meu caso eu coloquei o backup para executar a cada uma hora assim caso eu tenha problema pode pegar a pasta anterior ao problema e não perco tantas horas de jogo
+
