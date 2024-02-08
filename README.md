@@ -30,6 +30,7 @@ Para definir a politica como irestrita e conseguir executar o script entre com o
 Set-ExecutionPolicy UnRestricted
 ```
 
+Now to run the script, access the folder where the script is and from there type the PowerShell execution command
 Agora para executar o script acesse a pasta onde está o script e de dentro dela digite o comando de execução do PowerShell
 ```
 .\script-backup-palworld-saved.ps1
